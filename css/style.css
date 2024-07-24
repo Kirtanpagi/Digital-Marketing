@@ -1,0 +1,648 @@
+/* NAVBAR START */
+
+.nav-style .nav-link {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 25.97px !important;
+}
+
+.btn-color {
+    background-color: #6041B7 !important;
+    width: 122px !important;
+    height: 48px !important;
+}
+
+.text-color {
+    color: #6041B7 !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 25.97px !important;
+}
+
+/* NAVBAR END */
+
+
+/* DIGITAL SECTION START */
+
+.span-style {
+    color: #6041B7 !important;
+    font-weight: 600 !important;
+    font-size: 19px !important;
+    line-height: 25.97px !important;
+}
+
+.textmain-style {
+    font-weight: 500 !important;
+    font-size: 42.13px !important;
+    line-height: 49.15px !important;
+}
+
+.heding-style {
+    color: #6041B7 !important;
+    width: 100%;
+    /* Adjusted for responsiveness */
+    font-size: 42.13px !important;
+    line-height: 49.15px !important;
+}
+
+.para-style {
+    font-weight: 500 !important;
+    font-size: 17.81px !important;
+    line-height: 24.17px !important;
+    color: #5B5B5B !important;
+}
+
+.icon-style {
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #3B8634 !important;
+}
+
+.icon-text {
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 24.37px !important;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* padding: 20px; */
+}
+
+.img img {
+    max-width: 70%;
+    height: auto;
+
+}
+
+@media (max-width: 768px) {
+    .textmain-style {
+        font-size: 32px !important;
+        /* Adjusted for smaller screens */
+        line-height: 39px !important;
+    }
+
+    .heding-style {
+        font-size: 32px !important;
+        /* Adjusted for smaller screens */
+        line-height: 39px !important;
+    }
+
+    .para-style {
+        font-size: 15px !important;
+        /* Adjusted for smaller screens */
+        line-height: 20px !important;
+    }
+}
+
+
+
+
+/* DIGITAL SECTION END */
+
+
+
+/* CARD SECTION START */
+
+.cardtxt-style img {
+    width: 35%;
+}
+
+.h5-style {
+    font-weight: 500 !important;
+    font-size: 17.56px !important;
+    line-height: 20.06px !important;
+    color: #D44E24 !important;
+}
+
+.p-style {
+    font-weight: 400 !important;
+    font-size: 12.54px !important;
+    line-height: 17.56px !important;
+    color: #3E3E3E !important;
+}
+
+@media (max-width: 768px) {
+    .h5-style {
+        font-size: 15px !important;
+        /* Adjusted for smaller screens */
+        line-height: 18px !important;
+    }
+
+    .p-style {
+        font-size: 11px !important;
+        /* Adjusted for smaller screens */
+        line-height: 15px !important;
+    }
+
+    .cardtxt-style img {
+        width: 50%;
+        /* Adjusted for smaller screens */
+    }
+}
+
+
+/* CARD SECTION END */
+
+
+/* ABOUT SECTION START */
+
+.icon-style {
+    width: 30px;
+    height: 30px;
+    background-color: #3B8634;
+}
+
+.icon-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24.37px;
+    color: #3E3E3E;
+}
+
+.about-heading {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40PX;
+    color: #6041B7;
+}
+
+.about-para {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #5B5B5B;
+}
+
+.about-h4 {
+    font-weight: 500 !important;
+    font-size: 33px !important;
+    line-height: 40px !important;
+    /* Adjusted for better readability */
+    color: #6041B7 !important;
+}
+
+@media (max-width: 768px) {
+    .about-img {
+        margin-top: 0;
+    }
+
+    .about-heading {
+        font-size: 24px;
+    }
+
+    .about-para {
+        font-size: 14px;
+    }
+
+    .about-h4 {
+        font-size: 18px;
+    }
+
+    .icon-text {
+        font-size: 14px;
+    }
+}
+
+.about-img {
+    position: relative;
+}
+
+.about-img::before {
+    content: "";
+    width: 34%;
+    height: 34%;
+    position: absolute;
+    border-radius: 6px;
+    background-color: #6041B7;
+    bottom: 75%;
+    /* margin-bottom: -20px !important; */
+    z-index: -1;
+    left: 10%;
+}
+
+.about-img::after {
+    content: "";
+    width: 30%;
+    height: 25%;
+    position: absolute;
+    border-radius: 6px !important;
+    /* background-color: #6041B7; */
+    border: 2px solid #6041B7;
+    /* right: 20%; */
+    left: 60%;
+    top: 85%;
+    z-index: -1;
+}
+
+
+
+/* Default styles for larger devices */
+@media (min-width: 992px) {
+
+    /* Large devices */
+    .about-img::before {
+        bottom: 74%;
+        left: 5;
+    }
+
+
+}
+
+/* Hide pseudo-elements on medium and smaller devices */
+@media (max-width: 991.98px) {
+
+    /* Medium and small devices */
+    .about-img::before,
+    .about-img::after {
+        display: none;
+    }
+}
+
+/* ABOUT SECTION END */
+
+
+
+/* <!-- SERVICE SECTION START --> */
+
+.service-h2 {
+    font-weight: 600 !important;
+    font-size: 40px !important;
+    line-height: 16px !important;
+    color: #6041B7 !important;
+}
+
+.service-section .card{
+    /* width: 30%; */
+    height: 100% !important;
+}
+
+.services-style {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    /* color: #F67B54 !important; */
+}
+
+
+.card-txt {
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 26px !important;
+    color: #444444 !important;
+}
+
+
+
+.services-btn {
+    border: 1px solid #6041B7 !important;
+}
+
+.service-section img {
+    max-width: 30%;
+    /* Ensure the image scales with the card */
+    /* height: auto; */
+    /* Maintain aspect ratio */
+}
+
+.card-1 {
+    background-color: #FFF5F2;
+}
+
+.card-1 h5 {
+    color: #F67B54 !important;
+
+}
+
+.card-2 {
+    background-color: #F0FFF6;
+}
+
+.card-2 h5 {
+    color: #4DC28A !important;
+
+}
+
+.card-3 {
+    background-color: #FFF5F2 !important;
+}
+
+.card-3 h5 {
+    color: #8F61DB !important;
+
+}
+
+/* Media queries for additional responsiveness */
+@media (max-width: 576px) {
+    .card-1 {
+        padding: 1rem;
+        /* Adjust padding on smaller screens */
+    }
+
+    .services-style {
+        font-size: 18px;
+        /* Slightly smaller font size on small devices */
+    }
+
+    .card-txt {
+        font-size: 14px;
+        /* Slightly smaller font size on small devices */
+    }
+}
+
+/* <!-- SERVICE SECTION END --> */
+
+
+/* WORK SECTION START  */
+
+.work-h5 {
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    line-height: 25px !important;
+}
+
+.work-p {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    color: #484848 !important;
+}
+
+.work-h2 {
+    font-weight: 600 !important;
+    font-size: 40px !important;
+    line-height: 16px !important;
+    color: #6041B7 !important;
+}
+
+/* Ensure the image scales with the card */
+.card-img-top {
+    max-width: 25%;
+    /* height: auto; */
+}
+
+
+
+.card-style h5{
+ color: #59309B;
+}
+
+.card-style1 h5{
+    color: #25B771;
+}
+
+.card-style2 h5{
+    color: #F67B54;
+}
+
+.card-style3 h5{
+    color: #59309B;
+}
+
+/* Media queries for additional responsiveness */
+@media (max-width: 576px) {
+    .work-h2 {
+        font-size: 30px; /* Smaller font size for h2 on small devices */
+    }
+
+    .work-h5 {
+        font-size: 20px; /* Adjusted font size for h5 */
+    }
+
+    .work-p {
+        font-size: 12px; /* Adjusted font size for paragraph */
+    }
+
+    .card-body {
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+}
+
+/* WORK SECTION END */
+
+
+/* SUCCESS SECTION START */
+
+/* Ensure the images are responsive */
+ .img-1 {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Adjust carousel controls for better visibility on smaller screens */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Add background color for better visibility */
+    border-radius: 50%;
+    padding: 10px; /* Add padding to make them easier to tap */
+}
+
+/* Optional: additional styling for better responsiveness */
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 1rem; /* Reduce margin bottom on smaller screens */
+    }
+}
+
+
+.success-style{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 16px;
+}
+
+.success-p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.success-bstyle{
+    /* color: #6041B7 !important; */
+    border-bottom: 3px solid #59309B !important;
+}
+
+
+/* SUCCESS SECTION END */
+
+
+/* CONTCT US SECTION START */
+
+.card-border {
+    border: 2px solid #8F61DB !important;
+}
+
+
+.contect-h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 16px;
+    color: #6041B7;
+}
+
+.contect-para {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #3E3E3E !important;
+}
+
+.contect-img {
+    position: relative;
+}
+
+
+.contect-img::before {
+    content: "";
+    width: 22%;
+    height: 28%;
+    position: absolute;
+    border-radius: 6px;
+    background-color: #8A69E8;
+    left: 18%;
+    z-index: -1;
+    bottom: 80%;
+}
+
+.contect-img::after {
+    content: "";
+    width: 22%;
+    height: 28%;
+    position: absolute;
+    border-radius: 6px;
+    border: 3px solid #8A69E8;
+    right: 18%;
+    z-index: -1;
+    top: 85%;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .contect-img::before,
+    .contect-img::after {
+        width: 120px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 992px) {
+    .contect-img::before,
+    .contect-img::after {
+        width: 100px;
+        height: 60px;
+    }
+    .contect-img::before {
+        left: 15%;
+        bottom: 75%;
+    }
+    .contect-img::after {
+        right: 15%;
+        top: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contect-img::before,
+    .contect-img::after {
+        width: 80px;
+        height: 50px;
+    }
+    .contect-img::before {
+        left: 12%;
+        bottom: 70%;
+    }
+    .contect-img::after {
+        right: 12%;
+        top: 75%;
+    }
+}
+
+@media (max-width: 576px) {
+    .contect-img::before,
+    .contect-img::after {
+        width: 100px;
+        height: 60px;
+    }
+    .contect-img::before {
+        left: 20%;
+        bottom: 78%;
+    }
+    .contect-img::after {
+        right: 18%;
+        top: 78%;
+    }
+}
+
+@media (min-width:540px) and (max-width:720px) {
+   
+
+    .contect-img::before {
+        left: 20%;
+        bottom: 85%;
+    }
+    .contect-img::after {
+        right: 18%;
+        top: 84%;
+    }
+
+}
+
+/* CONTCT US SECTION END */
+
+/* FOOTER SECTION START */
+
+/* General styles for responsiveness */
+
+@media (max-width: 768px) {
+    .footer-icon {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-icon i{
+        font-size: 16px !important;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        font-size: small;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+   
+}
+
+@media  (orientation: landscape) {
+    .footer-icon {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+  
+
+  
+   
+}
+
+/* Ensure the footer does not overlap other content */
+footer {
+    z-index: 10;
+    position: relative;
+}
+
+
+/* FOOTER SECTION END */
